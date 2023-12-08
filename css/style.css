@@ -1,0 +1,51 @@
+/* Each image on the landing page */
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image styling on main page */
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Text on main landing page and bottom picture text */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  z-index: 1;
+  font-size: 3em;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3, p {
+  color: rgb(80, 80, 80);
+}
+
+.nav-bar-menu-items {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Welcome Button */
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
